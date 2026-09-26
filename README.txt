@@ -1,10 +1,12 @@
-Hobby Budget v3 - カテゴリ管理対応版
+Hobby Budget v5.4
 
-変更点
-- 設定画面からカテゴリを追加
-- カテゴリ名を変更（過去の支出・欲しいもの・購入予定にも反映）
-- カテゴリ削除時に既存データの移動先を指定
-- 旅行カテゴリは名前変更可能。旅行機能維持のため削除不可
+Changes:
+- Wishlist items can be edited and deleted.
+- Wishlist entry now supports amount, category, planned/release date, shop, trip and memo.
+- Existing wishlist data remains compatible and is preserved.
+- One-button purchase registration opens a prefilled confirmation form and creates an expense.
+- Purchased wishlist items remain in a Purchased section instead of being deleted.
+- Added simple Hobby Budget app icons (teal wallet) distinct from the previous blue gacha-budget icon.
 
-GitHub更新時は app.js と style.css の2ファイルだけ差し替えればOKです。
-config.js は現在使っているSupabase設定をそのまま残してください。
+Update GitHub Pages by replacing index.html, app.js, style.css, sw.js, manifest.json and adding icon-192.png / icon-512.png.
+Keep your existing config.js; it is intentionally not included in this ZIP.
