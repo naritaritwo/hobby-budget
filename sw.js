@@ -1,4 +1,4 @@
-const C='hobby-budget-v5.2';
+const C='hobby-budget-v5.3';
 const ASSETS=['./','index.html','style.css?v=5.2','app.js?v=5.2','manifest.json'];
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(ASSETS)));});
 self.addEventListener('activate',e=>{e.waitUntil((async()=>{for(const k of await caches.keys())if(k!==C)await caches.delete(k);await self.clients.claim();})());});
