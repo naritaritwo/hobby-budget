@@ -1,13 +1,10 @@
-Hobby Budget v2 - Supabase同期版
+Hobby Budget v3 - カテゴリ管理対応版
 
-1. config.js をメモ帳等で開きます。
-2. PASTE_SUPABASE_URL_HERE を Supabase の NEXT_PUBLIC_SUPABASE_URL の値に置き換えます。
-3. PASTE_SUPABASE_PUBLISHABLE_KEY_HERE を NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY の値に置き換えます。
-   ※「https://...」や「sb_publishable_...」の値だけを貼り付けます。
-   ※ service_role / secret key は使用しません。
-4. 保存します。
-5. GitHub Pagesへ index.html / app.js / style.css / config.js / manifest.json / sw.js をアップロードします。
-6. 公開URLを開き、メールアドレスとパスワードを入力して「初回：アカウント作成」。
-7. 確認メールが届いた場合はリンクを開き、その後ログインします。
+変更点
+- 設定画面からカテゴリを追加
+- カテゴリ名を変更（過去の支出・欲しいもの・購入予定にも反映）
+- カテゴリ削除時に既存データの移動先を指定
+- 旅行カテゴリは名前変更可能。旅行機能維持のため削除不可
 
-既存のローカルデータがある場合、クラウド側にまだデータがなければ初回ログイン時にアップロードします。
+GitHub更新時は app.js と style.css の2ファイルだけ差し替えればOKです。
+config.js は現在使っているSupabase設定をそのまま残してください。
