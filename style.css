@@ -35,3 +35,6 @@ nav button:hover{background:#ccfbf1}
 .category-order button:disabled{background:#ecfdf5;color:#94a3b8;border-color:#d1fae5}
 button.danger-border{background:#fff1f2!important;color:#991b1b!important;border-color:#fecdd3!important;font-weight:700}
 button.danger-border:hover{background:#ffe4e6!important;border-color:#fda4af!important;color:#7f1d1d!important}
+
+.item-actions{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap;margin-top:6px}
+.wish-actions{flex-wrap:wrap}
