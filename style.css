@@ -18,3 +18,19 @@
 
 /* v5.4.1 fixed teal header + quick add */
 .quick-add{border:1px solid #ffffff99;background:#ffffff;color:#0f766e;border-radius:12px;padding:10px 14px;font-size:15px;font-weight:800;white-space:nowrap;box-shadow:0 1px 3px #0002}.quick-add:active{transform:translateY(1px)}header .version{color:#ccfbf1}@media(max-width:430px){header{padding:13px 14px 11px}header h1{font-size:21px}.quick-add{padding:9px 12px;font-size:14px}}
+
+/* v5.4.2 unified teal / green button palette */
+button.primary{background:#0f766e;color:#fff}
+button.primary:hover{background:#115e59}
+button.secondary{background:#f0fdfa;border-color:#99f6e4;color:#0f766e;font-weight:650}
+button.secondary:hover{background:#ccfbf1;border-color:#5eead4}
+.tabs button{background:#f0fdfa;border-color:#99f6e4;color:#0f766e;font-weight:700}
+.tabs .on{background:#0f766e;border-color:#0f766e;color:#fff}
+.quick-add{background:#ccfbf1;border-color:#99f6e4;color:#0f766e}
+.quick-add:hover{background:#99f6e4}
+nav{background:#f0fdfa;border-top-color:#ccfbf1}
+nav button{background:#f0fdfa;color:#0f766e}
+nav button:hover{background:#ccfbf1}
+.add{color:#0f766e!important}
+.category-order button:disabled{background:#ecfdf5;color:#94a3b8;border-color:#d1fae5}
+button.danger-border{background:#f0fdfa}

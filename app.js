@@ -91,4 +91,4 @@ function bind(){document.getElementById('quickAdd')?.addEventListener('click',()
 document.getElementById('nav').onclick=e=>{let b=e.target.closest('button[data-view]');if(b){view=b.dataset.view;render()}};initAuth();
 
 // v5.4: editable detailed wishlist + one-tap purchase registration; preserves legacy wishlist data.
-if ('serviceWorker' in navigator) { window.addEventListener('load', async () => { try { const reg = await navigator.serviceWorker.register('./sw.js?v=5.4'); await reg.update(); } catch (e) { console.warn('Service Worker update failed', e); } }); }
+if ('serviceWorker' in navigator) { window.addEventListener('load', async () => { try { const reg = await navigator.serviceWorker.register('./sw.js?v=5.4.2'); await reg.update(); } catch (e) { console.warn('Service Worker update failed', e); } }); }
