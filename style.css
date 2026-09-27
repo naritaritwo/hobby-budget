@@ -33,4 +33,5 @@ nav button{background:#f0fdfa;color:#0f766e}
 nav button:hover{background:#ccfbf1}
 .add{color:#0f766e!important}
 .category-order button:disabled{background:#ecfdf5;color:#94a3b8;border-color:#d1fae5}
-button.danger-border{background:#f0fdfa}
+button.danger-border{background:#fff1f2!important;color:#991b1b!important;border-color:#fecdd3!important;font-weight:700}
+button.danger-border:hover{background:#ffe4e6!important;border-color:#fda4af!important;color:#7f1d1d!important}
